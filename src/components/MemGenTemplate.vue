@@ -4,8 +4,8 @@ export default {
     data() {
         return {
             img: "src/assets/mem-generator/meme-default.png",
-            topText: "Не можешь сесть за домашку?",
-            bottomText: "Делай ее стоя!"
+            topText: "it doesnt work, why?",
+            bottomText: "it works, why?"
         }
     }
 }

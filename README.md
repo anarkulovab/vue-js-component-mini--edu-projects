@@ -1,38 +1,79 @@
-# components-app
+# Vue Mini-Projects Library
 
-This template should help get you started developing with Vue 3 in Vite.
+Коллекция из 15 мини-приложений и компонентов, реализованных на Vue.js в рамках обучения. Демонстрирует компонентный подход, работу с реактивностью и пользовательскими событиями. Многие из проектов не несут особого значения т.к были созданы исключительно в целях изучения фреймворка во время обучения на курсе.
 
-## Recommended IDE Setup
+## Скриншоты
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+![Текстовая галерея, Галерея картинок и Пароль](screenshots/c1-3.png)
+![Текстовый редактор и Редактор картинок](screenshots/c4-5.png)
+![](screenshots/c5-2.png)
+![Редактор лого](screenshots/c6.png)
+![Список задач 1](screenshots/c7.png)
+![Список задач 2](screenshots/c8.png)
+![Заметки](screenshots/c9.png)
+![Кумир](screenshots/c10.png)
+![Каталог книг](screenshots/c11.png)
+![Блог посты](screenshots/c12.png)
+![Лампочка - изменение темы](screenshots/c13.png)
+![](screenshots/c13-2.png)
+![Mood трекер](screenshots/c14.png)
+![Генератор Интернет-мемов](screenshots/c15.png)
 
-## Recommended Browser Setup
+## Стек
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+- Vue.js
+- HTML5 / CSS3
+- JavaScript
 
-## Customize configuration
+## Список компонентов
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+В проекте собраны следующие независимые компоненты:
 
-## Project Setup
+1. **Текстовая галерея** — переключение текстов (Назад/Вперед)
+2. **Галерея картинок** — слайдер изображений с кнопками навигации
+3. **Пароль** — поле ввода с возможностью показать/скрыть символы
+4. **Редактор текстовый** — панель форматирования (жирный, курсив, изменение размера)
+5. **Редактор картинок** — манипуляции с изображением (поворот, масштабирование)
+6. **Редактор лого** — настройка текста, цвета, шрифта и капслока
+7. **Список задач 1** — добавление, удаление задач, приоритеты
+8. **Список задач 2** — чек-лист с возможностью удаления выполненных пунктов
+9. **Заметки** — создание карточек с выбором категории и цвета
+10. **Кумир** — интерактивная игра-лабиринт с передвижением персонажа, можно изменять персонажа и передвигать его по области
+11. **Книги** — вывод списка книг с фильтрацией по рейтингу
+12. **Блог** — лента постов с возможностью настройки размера шрифта
+13. **Лампочка** — простой интерактивный переключатель темы (вкл/выкл)
+14. **Mood трекер** — сетка картинок с счетчиками, при нажатии на объект увеличивается счетчик и визуально приближается
+16. **Генератор мемов** — добавление верхней и нижней подписи на изображение, возможность изменить изображение и надпись
 
+## Структура проекта
+
+```text
+vue-mini-projects/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── TextGallery.vue
+│   │   ├── ImageGallery.vue
+│   │   ├── PasswordInput.vue
+│   │   ├── ... 
+│   │   └── MemeGenerator.vue
+│   ├── App.vue
+│   └── main.js
+├── package.json
+└── README.md
+
+## Как запустить
+## 1. Клонирование репозитория
+```sh
+git clone https://github.com/anarkulovab/vue-js-component-mini--edu-projects.git
+```
+
+## 2. Установка пакетов
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
+## 3. Запуск
 ```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
 ```

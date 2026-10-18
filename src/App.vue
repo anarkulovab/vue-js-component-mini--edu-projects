@@ -105,15 +105,11 @@ export default {
     <lamp-toggle></lamp-toggle>
     <hr>
 
-    <h6>Компонент №14. Команда</h6>
-    <app-staff></app-staff>
-    <hr>
-
-    <h6>Компонент №15. Массив из изображений</h6>
+    <h6>Компонент №14. Mood трекер</h6>
     <image-gallery-array></image-gallery-array>
     <hr>
 
-    <h6>Компонент №16. Генератор мемов</h6>
+    <h6>Компонент №15. Генератор мемов</h6>
     <MemGenTemplate></MemGenTemplate>
     <hr>
   </body>

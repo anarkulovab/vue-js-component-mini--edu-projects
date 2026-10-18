@@ -5,8 +5,11 @@ export default {
 			images: ['src/assets/image-gallery-array/angry.png', 'src/assets/image-gallery-array/sleep.png', 'src/assets/image-gallery-array/study.png'],
 
 			imagesObj: [{image: 'src/assets/image-gallery-array/angry.png', count: 0}, 
-					{image: 'src/assets/image-gallery-array/sleep.png', count: 0}, 
-					{image: 'src/assets/image-gallery-array/study.png', count: 0}],
+					{image: 'src/assets/image-gallery-array/happy.png', count: 0}, 
+					{image: 'src/assets/image-gallery-array/sad.png', count: 0},
+					{image: 'src/assets/image-gallery-array/tired.png', count: 0},
+					{image: 'src/assets/image-gallery-array/semisad.png', count: 0},
+					{image: 'src/assets/image-gallery-array/ill.png', count: 0}],
 
 			selectedImage: ``
 		};
@@ -22,13 +25,7 @@ export default {
 </script>
 
 <template>
-	<div class="image-gallery">
-		<div class="image-item" v-for="(item, index) in images" @click="closeUp(index)" :class="{'selected': selectedImage == index}">
-			<img :src="item"/>
-		</div>
-	</div>
-	<br>
-	<div class="image-gallery">
+	<div class="image-gallery" style="margin-left: 320px;">
 		<div class="image-item" v-for="(item, index) in imagesObj" @click="closeUp(index)" :class="{'selected': selectedImage == index}">
 			<img :src="item.image" @click="item.count++"/>
 			<p>{{ item.count }}</p>

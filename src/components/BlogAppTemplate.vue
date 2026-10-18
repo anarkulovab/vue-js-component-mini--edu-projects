@@ -17,7 +17,7 @@ export default {
             'Недооценённый материал...',
             'Лучшее, что я читал.'
           ],
-          image: 'post1'
+          image: 'src/assets/blog-app/post.png'
         },
         {
           title: 'Как сделать lorum ipsum?',
@@ -29,7 +29,7 @@ export default {
             'Недооценённый материал...',
             'Лучшее, что я читал.'
           ],
-          image: 'post1'
+          image: 'src/assets/blog-app/post.png'
         },
         {
           title: 'Как сделать lorum ipsum?',
@@ -41,7 +41,7 @@ export default {
             'Недооценённый материал...',
             'Лучшее, что я читал.'
           ],
-          image: 'post1'
+          image: 'src/assets/blog-app/post.png'
         },
       ],
       fontSize: 16
