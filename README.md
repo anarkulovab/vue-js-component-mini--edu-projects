@@ -61,6 +61,7 @@ vue-mini-projects/
 │   └── main.js
 ├── package.json
 └── README.md
+```
 
 ## Как запустить
 ## 1. Клонирование репозитория
